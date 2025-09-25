@@ -4,8 +4,6 @@ A **Tower Defense game** set in a mysterious **forest environment** where the pl
 
 This project was built with **Unity 2022.3.6f1 LTS** using **2D sprites in a 3D world** with a **45° perspective**, inspired by *Cult of the Lamb*.
 
----
-
 ## ✨ Features
 
 ### 🎮 Core Gameplay
@@ -27,14 +25,10 @@ This project was built with **Unity 2022.3.6f1 LTS** using **2D sprites in a 3D 
 - **Wave Spawning**: Configurable timed waves  
 - **Boundary System**: Prevents player/enemies from leaving the map  
 
----
-
 ## 📦 Prerequisites
 To open and run this project, you need:
 - **Unity 2022.3.6f1 LTS** (or later)  
 - Basic understanding of the Unity Editor
-
----
 
 ## 📂 Installation & Run
 
@@ -46,8 +40,6 @@ To play the game without opening Unity:
 If you want to explore or edit the project in Unity:
 
 - Open the **ForestDefense2** folder inside Unity Editor  
-
----
 
 ## 🎮 Controls
 
@@ -65,8 +57,6 @@ If you want to explore or edit the project in Unity:
 ### Game Over Screen
 - **PLAY AGAIN** → Restart current level  
 - **MENU** → Return to main menu  
-
----
 
 ## ⚔️ Game Mechanics
 
@@ -87,8 +77,6 @@ If you want to explore or edit the project in Unity:
 - **Early Start**: Press **Space** to trigger the next wave early  
 - **Boss Wave**: Special boss fight on the **4th wave**  
 
----
-
 ## 🛠 Technical Details
 
 ### Unity Configuration
@@ -96,8 +84,6 @@ If you want to explore or edit the project in Unity:
 - **Render Pipeline**: Built-in  
 - **Camera Setup**: Perspective camera, 45° angle  
 - **Physics**: Rigidbody-based movement (gravity disabled)  
-
----
 
 ## 📜 Key Scripts
 
@@ -128,8 +114,6 @@ If you want to explore or edit the project in Unity:
 - **Enemy Animations**: Idle, Run  
 - **Animation Events**: Sync attack timing with damage events  
 
----
-
 ## 🖼️ Screenshots
 
 ### Main Menu
@@ -144,8 +128,6 @@ If you want to explore or edit the project in Unity:
 ### Game Over
 ![Game Over](./Screenshots/gameover.png)
 
----
-
 ## 👨‍💻 Credits
 
 ### Development
@@ -156,18 +138,12 @@ If you want to explore or edit the project in Unity:
 ### Special Thanks
 - **KFA Entertainment** → for providing the case study opportunity  
 
----
-
 ## 📜 License
 
 This project was created **for educational purposes** as part of a **case study** for **KFA Entertainment**.  
 All assets used are **placeholders** found on the web and selected specifically for this project.  
 
----
-
 ## 🚀 Notes
 - This project demonstrates **tower defense mechanics** in a **forest theme**.  
 - Intended as a **case study** project for showcasing technical and design skills.  
 - Inspired by titles like **Cult of the Lamb** with a unique **2D-in-3D perspective**.  
-
----
