@@ -1,0 +1,282 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1758811488273703, "dur":23664, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758811488297377, "dur":149, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758811488297579, "dur":549, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758811488300556, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":0, "ts":1758811488298153, "dur":3503, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758811488301657, "dur":3864561, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758811492166220, "dur":217, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758811492166549, "dur":67, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758811492166669, "dur":1579, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1758811488298561, "dur":3108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758811488301676, "dur":1726, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758811488304864, "dur":1080, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1758811488305953, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1758811488306084, "dur":12397, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1758811488318483, "dur":220, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1758811488319023, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player0464af1c-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1758811488305952, "dur":13327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1758811488319576, "dur":66, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758811488320653, "dur":200792, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1758811488522626, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1758811488522624, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/ForestDefense2_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1758811488522781, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1758811488523847, "dur":3642367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758811488298613, "dur":3077, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758811488301697, "dur":275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758811488301972, "dur":1468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758811488303460, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Hub\\Editor\\2022.3.62f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1758811488303446, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1758811488315688, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1758811488320410, "dur":6224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488326684, "dur":3098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488329851, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488332032, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488334013, "dur":4002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488338045, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488341636, "dur":4161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488345827, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488349421, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488351840, "dur":6122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488358066, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Hub\\Editor\\2022.3.62f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488358064, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488358145, "dur":4344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488362523, "dur":5708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488368266, "dur":4950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488373296, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758811488378473, "dur":9412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1758811488387942, "dur":8519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1758811488396480, "dur":3769783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758811488298591, "dur":3090, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758811488301687, "dur":311, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758811488301998, "dur":1423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758811488303437, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Hub\\Editor\\2022.3.62f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1758811488303422, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1758811488305246, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1758811488308471, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1758811488309760, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1758811488309827, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1758811488311883, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1758811488314078, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1758811488315693, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2.exe" }}
+,{ "pid":12345, "tid":3, "ts":1758811488320044, "dur":6904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488330392, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758811488326980, "dur":3587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488330609, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488332860, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488337785, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758811488334414, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488337883, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488340462, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488343063, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488346392, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488349453, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488352115, "dur":4134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488356291, "dur":4871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488361316, "dur":7022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488368378, "dur":5146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488373644, "dur":5951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758811488379655, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1758811488381167, "dur":5847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1758811488387049, "dur":7423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1758811488394487, "dur":3771722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758811488298670, "dur":3035, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758811488301713, "dur":322, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758811488302035, "dur":1394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758811488303434, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1758811488304879, "dur":3761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1758811488310740, "dur":153, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758811488308817, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1758811488310936, "dur":188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Hub\\Editor\\2022.3.62f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1758811488310934, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1758811488311579, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1758811488316143, "dur":4433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488320633, "dur":8226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488328904, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488332748, "dur":4147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488336926, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488339670, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.RenderPipelines.Universal.2D.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488343524, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488346396, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488349624, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488352980, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488356454, "dur":5004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488361532, "dur":6305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488373493, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758811488367883, "dur":5678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488373604, "dur":7434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758811488397603, "dur":1696, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758811488381070, "dur":18275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1758811488399392, "dur":3766879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758811488298727, "dur":2987, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758811488301720, "dur":318, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758811488302038, "dur":1398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758811488303451, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Hub\\Editor\\2022.3.62f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1758811488303436, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1758811488352115, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1758811488355479, "dur":3720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758811488359243, "dur":7397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758811488371644, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758811488366721, "dur":4987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758811488376001, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758811488371766, "dur":4295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758811488376109, "dur":7831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758811488383993, "dur":12996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1758811488397019, "dur":3769236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758811488298774, "dur":2951, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758811488301733, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758811488302088, "dur":1329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758811488303481, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Hub\\Editor\\2022.3.62f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488303812, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488303985, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488304079, "dur":370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488304450, "dur":584, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488305035, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488305233, "dur":375, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488305609, "dur":502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488306113, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488306234, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488306320, "dur":361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488306683, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488306762, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488306876, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488306949, "dur":568, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488307518, "dur":282, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488307801, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488307901, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488308032, "dur":533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488308575, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\PackageCache\\com.unity.burst@1.8.21\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758811488308897, "dur":1397, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity Projects\\Forest Defense\\ForestDefense2\\Library\\PackageCache\\com.unity.burst@1.8.21\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":6, "ts":1758811488303420, "dur":6875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":6, "ts":1758811488310299, "dur":58, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758811488313303, "dur":3850395, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":6, "ts":1758811492165411, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488298822, "dur":2922, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758811488301751, "dur":297, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758811488302048, "dur":1434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758811488303484, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1758811488332298, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1758811488338258, "dur":123, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758811488335583, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488338439, "dur":2966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488341522, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488344431, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488346758, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488349714, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488352652, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488356325, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488360519, "dur":7694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488368259, "dur":4104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488372429, "dur":5960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488378422, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Hub\\Editor\\2022.3.62f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488378420, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488378532, "dur":60937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758811488439498, "dur":3726727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758811488298864, "dur":2891, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758811488301761, "dur":321, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758811488302083, "dur":1361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758811488303445, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1758811488331394, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1758811488334805, "dur":3557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488338404, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488341244, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488347323, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758811488344678, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488347464, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488350156, "dur":3960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488354161, "dur":3698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488358045, "dur":3808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488361882, "dur":8859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488370812, "dur":5478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488383407, "dur":140, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758811488376331, "dur":7293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758811488383796, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1758811488386541, "dur":7511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1758811488394098, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1758811488395630, "dur":3770582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758811488298902, "dur":2867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758811488301776, "dur":276, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758811488302053, "dur":1384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758811488303438, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1758811488305351, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1758811488308412, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1758811488310803, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1758811488312144, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1758811488314285, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1758811488326495, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758811488315507, "dur":11102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488326688, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488328992, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488333423, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758811488330905, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488333578, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488340393, "dur":169, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758811488336747, "dur":3857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488340654, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488343521, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488345879, "dur":4086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488350003, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488353323, "dur":5795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488359162, "dur":8992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488368233, "dur":6771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488375074, "dur":5533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758811488380646, "dur":6634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1758811488387312, "dur":7833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1758811488395158, "dur":3771049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758811488298956, "dur":2830, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758811488301816, "dur":1610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758811488303426, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1758811488315299, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1758811488326259, "dur":110, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758811488318428, "dur":8022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1758811488326528, "dur":648, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758811488330348, "dur":126, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758811488327200, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488330588, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488333211, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488337222, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488339668, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488343174, "dur":2731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488346004, "dur":4613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488350658, "dur":4305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488355169, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758811488355237, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488359187, "dur":5879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488365190, "dur":5392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488370625, "dur":5431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488376157, "dur":7764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758811488383969, "dur":15814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1758811488399801, "dur":3766433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758811488298998, "dur":2798, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758811488301797, "dur":1612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758811488303427, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758811488367869, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1758811488370280, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758811488373877, "dur":4199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758811488378111, "dur":7877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758811488386035, "dur":8432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1758811488394484, "dur":3771732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758811488299034, "dur":2778, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758811488301812, "dur":1607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758811488303440, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Hub\\Editor\\2022.3.62f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1758811488303420, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1758811488330946, "dur":4722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1758811488335846, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488338802, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488342304, "dur":120, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758811488342427, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488345479, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488348325, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488350765, "dur":5430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488356224, "dur":71, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758811488356298, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488359688, "dur":6923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488366667, "dur":5704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488372394, "dur":54, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488372464, "dur":4849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488377479, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758811488380659, "dur":6957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1758811488387649, "dur":13580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Forest Defense/ForestDefense2_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1758811488401251, "dur":3764995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758811492171404, "dur":829, "ph":"X", "name": "ProfilerWriteOutput" }
+,

@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+libburst-llvm-18.dylib filter=lfs diff=lfs merge=lfs -text
+libburst-llvm-19.dylib filter=lfs diff=lfs merge=lfs -text
